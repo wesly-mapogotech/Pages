@@ -1,0 +1,16 @@
+{
+  "status": true,
+  "message": "API is working",
+  "data": {
+    "name": "Wesly Arfan Simanjuntak",
+    "role": "Software Engineer",
+    "experience": "Senior Software Engineer",
+    "skills": [
+      ".NET",
+      "ASP.NET Core",
+      "C#",
+      "PostgreSQL",
+      "SQL Server"
+    ]
+  }
+}

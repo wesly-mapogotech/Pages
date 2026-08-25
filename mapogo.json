@@ -3,8 +3,8 @@
   "siteUrl": "https://fun8.8elements.mobi",
   "logoUrl": "https://mapogo.chat/logo.png",
   "theme": {
-    "primaryColor": "#111827",
-    "statusBarColor": "#111827",
-    "navigationBarColor": "#000000"
+    "primaryColor": "#F6339A",
+    "statusBarColor": "#F6339A",
+    "navigationBarColor": "#F6339A"
   }
 }

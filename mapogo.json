@@ -1,5 +1,10 @@
 {
   "appName": "Mapogo",
   "siteUrl": "https://fun8.8elements.mobi",
-  "logoUrl": "https://mapogo.chat/assets/logo.png"
+  "logoUrl": "https://mapogo.chat/logo.png",
+  "theme": {
+    "primaryColor": "#111827",
+    "statusBarColor": "#111827",
+    "navigationBarColor": "#000000"
+  }
 }

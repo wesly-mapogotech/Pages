@@ -3,9 +3,10 @@
   "siteUrl": "http://weslyarfan.somee.com/Margas/GenerateSilsilah/698",
   "logoUrl": "https://mapogo.chat/logo.png",
   "splashUrl": "https://stakpnsentani.ac.id/wp-content/uploads/2021/12/6.jpg",
+  "splashDurationMilliseconds":1500,
   "theme": {
     "primaryColor": "#BC0101",
     "statusBarColor": "#BC0101",
-    "navigationBarColor": "#BC0101"
+    "navigationBarColor": "#BC0101s
   }
 }

@@ -1,1 +1,32 @@
-
+[
+  {
+    "Id": 1,
+    "Isi": "Sai horas ma hamu, sai gabe, sai mamora.",
+    "Arti": "Semoga kalian sehat, memperoleh keturunan, dan hidup sejahtera.",
+    "KategoriNama": "Pernikahan"
+  },
+  {
+    "Id": 2,
+    "Isi": "Tubu ma anak dohot boru, gabe ma hamu jala mamora.",
+    "Arti": "Semoga dikaruniai anak laki-laki dan perempuan, serta menjadi keluarga yang berhasil dan sejahtera.",
+    "KategoriNama": "Pernikahan"
+  },
+  {
+    "Id": 3,
+    "Isi": "Sai tubu ma di hamu angka anak na marsangap, jala angka boru na marroha.",
+    "Arti": "Semoga kalian dikaruniai anak-anak yang terhormat dan berbudi baik.",
+    "KategoriNama": "Keluarga"
+  },
+  {
+    "Id": 4,
+    "Isi": "Sai dao ma bada, sai jonok ma hasonangan.",
+    "Arti": "Semoga perselisihan dijauhkan dan kebahagiaan didekatkan.",
+    "KategoriNama": "Kehidupan"
+  },
+  {
+    "Id": 5,
+    "Isi": "Sai horas ma hita saluhutna.",
+    "Arti": "Semoga kita semua berada dalam keadaan sehat dan selamat.",
+    "KategoriNama": "Doa dan Berkat"
+  }
+]

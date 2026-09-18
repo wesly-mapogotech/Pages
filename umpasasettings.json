@@ -1,3 +1,4 @@
 {
-  "FirebasePushNotificationTokenUrl" : "http://umpasabatak.somee.com/api/umpasa/DeviceToken"
+  "FirebasePushNotificationTokenUrl" : "http://umpasabatak.somee.com/api/umpasa/DeviceToken",
+  "FirebaseRetryToPushToken" : true
 }

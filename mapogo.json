@@ -9,5 +9,5 @@
     "statusBarColor": "#E91E63",
     "navigationBarColor": "#E91E63"
   },
-  "firebasePushNotificationTokenUrl" : "http://umpasabatak.somee.com/api/umpasa/DeviceToken"
+  "firebasePushNotificationTokenUrl" : "https://notification-center.mapogo.site/api/devices/register"
 }

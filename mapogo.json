@@ -9,5 +9,5 @@
     "statusBarColor": "#E91E63",
     "navigationBarColor": "#E91E63"
   },
-  "firebasePushNotificationTokenUrl" : "https://notification-center.mapogo.site/api/devices/register"
+  "firebasePushNotificationTokenUrl" : "https://dev.mapogo.site/api/devices/register"
 }

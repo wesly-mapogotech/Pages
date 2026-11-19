@@ -1,0 +1,13 @@
+{
+  "appName": "Mapogo",
+  "siteUrl": "https://holong.mapogo.site",
+  "logoUrl": "https://mapogo.chat/logo.png",
+  "splashUrl": "https://stakpnsentani.ac.id/wp-content/uploads/2021/12/6.jpg",
+  "splashDurationMilliseconds":1500,
+  "theme": {
+    "primaryColor": "#BC0101",
+    "statusBarColor": "#E91E63",
+    "navigationBarColor": "#E91E63"
+  },
+  "firebasePushNotificationTokenUrl" : "https://holong.mapogo.site/api/devices/register"
+}

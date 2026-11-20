@@ -1,139 +1,585 @@
-# Holong – Privacy Policy
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Holong Privacy Policy - Learn how Holong collects, uses, stores, and protects your personal information.">
+    <meta name="robots" content="index, follow">
+    <title>Privacy Policy - Holong</title>
 
-**Last updated: November 20, 2026**
+    <style>
+        :root {
+            --primary: #8b3d67;
+            --primary-dark: #642747;
+            --text: #29252a;
+            --text-muted: #6f6870;
+            --background: #f8f6f7;
+            --surface: #ffffff;
+            --border: #e9e2e6;
+            --accent: #f8edf2;
+        }
 
-This Privacy Policy explains how Holong ("we", "our", or "us") collects, uses, stores, and protects your personal information when you use the Holong application and related services.
+        * {
+            box-sizing: border-box;
+        }
 
-## 1. About Holong
+        html {
+            scroll-behavior: smooth;
+        }
 
-Holong is a social connection platform designed to help people discover meaningful connections based on shared interests, preferences, cultural backgrounds, and relationship goals.
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Helvetica, Arial, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.75;
+            font-size: 15px;
+        }
 
-We are committed to respecting your privacy and protecting the personal information you share with us.
+        .page-header {
+            background: linear-gradient(135deg, #642747 0%, #a6537e 100%);
+            color: #ffffff;
+            padding: 56px 20px 64px;
+            text-align: center;
+        }
 
-## 2. Information We Collect
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            font-size: 27px;
+            font-weight: 750;
+            letter-spacing: -0.8px;
+        }
 
-Depending on how you use Holong, we may collect the following information:
+        .brand-icon {
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 13px;
+            background: rgba(255, 255, 255, 0.16);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            font-size: 23px;
+        }
 
-### 2.1 Account and Authentication Information
-- Name or display name
-- Email address
-- Account authentication information
-- Information provided through Google Sign-In, if used
+        .page-header h1 {
+            margin: 0;
+            font-size: clamp(30px, 5vw, 42px);
+            line-height: 1.2;
+            letter-spacing: -1.2px;
+            font-weight: 750;
+        }
 
-### 2.2 Profile Information
-- Date of birth or age
-- Gender
-- Profile biography
-- Cultural background or identity, if provided
-- Interests and preferences
-- Relationship goals
-- Profile photographs and other media you upload
+        .page-header p {
+            margin: 14px 0 0;
+            color: rgba(255, 255, 255, 0.82);
+            font-size: 15px;
+        }
 
-### 2.3 Communication Information
-If messaging or other communication features are available, we may process messages and related information necessary to provide those features.
+        .last-updated {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 7px 14px;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.14);
+            color: #ffffff;
+            font-size: 12px;
+            letter-spacing: 0.3px;
+        }
 
-### 2.4 Technical Information
-We may collect technical information such as:
-- Device type and operating system
-- Application version
-- IP address
-- Diagnostic and error logs
-- Usage information related to application functionality
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: -28px auto 60px;
+            padding: 0 20px;
+            position: relative;
+        }
 
-## 3. How We Use Your Information
+        .content {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 48px 56px;
+            box-shadow: 0 12px 40px rgba(44, 24, 35, 0.06);
+        }
 
-We may use your information to:
+        .intro {
+            margin-bottom: 36px;
+            padding: 20px 24px;
+            background: var(--accent);
+            border-left: 4px solid var(--primary);
+            border-radius: 8px;
+            color: #59434f;
+        }
 
-- Create and manage your account.
-- Authenticate your identity and provide secure access.
-- Display your profile to other users according to application features and settings.
-- Help users discover potential connections.
-- Enable communication between users.
-- Send service-related notifications.
-- Maintain, troubleshoot, and improve the application.
-- Detect suspicious activities and prevent misuse.
-- Comply with applicable legal obligations.
+        .intro p {
+            margin: 0;
+        }
 
-## 4. Data Storage and Processing
+        h2 {
+            margin: 38px 0 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+            color: var(--primary-dark);
+            font-size: 21px;
+            line-height: 1.4;
+            font-weight: 700;
+        }
 
-Your information may be stored and processed using our application infrastructure, databases, cloud services, and media storage providers.
+        h2:first-of-type {
+            margin-top: 0;
+        }
 
-We take reasonable measures to protect personal information against unauthorized access, alteration, disclosure, or destruction.
+        h3 {
+            margin: 22px 0 8px;
+            color: var(--text);
+            font-size: 16px;
+            font-weight: 700;
+        }
 
-## 5. Sharing of Information
+        p {
+            margin: 0 0 14px;
+        }
 
-We do not sell your personal information.
+        ul {
+            margin: 10px 0 18px;
+            padding-left: 24px;
+        }
 
-We may share limited information with third parties when necessary to operate Holong, including:
+        li {
+            margin-bottom: 7px;
+            padding-left: 3px;
+        }
 
-- **Authentication providers:** Such as Google, if you use Google Sign-In.
-- **Hosting and infrastructure providers:** To operate our application and store data.
-- **Notification providers:** To deliver application notifications.
-- **Legal authorities:** When required by applicable law or necessary to protect users, our rights, or the security of the platform.
+        strong {
+            color: #30242c;
+        }
 
-We do not authorize service providers to use your information for purposes unrelated to providing their services to us.
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
 
-## 6. Profile Visibility and User Interactions
+        a:hover {
+            text-decoration: underline;
+        }
 
-Holong may display information from your profile to other users to support its social discovery features.
+        .contact-card {
+            margin-top: 18px;
+            padding: 22px 24px;
+            background: #fbf8fa;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+        }
 
-Please be careful when sharing personal information in your profile, photographs, or conversations. Information shared with other users may be viewed, copied, or saved by them.
+        .contact-card p {
+            margin-bottom: 8px;
+        }
 
-We encourage users to avoid sharing sensitive information with people they do not know or trust.
+        .contact-card p:last-child {
+            margin-bottom: 0;
+        }
 
-## 7. Data Security
+        .acknowledgment {
+            margin-top: 38px;
+            padding: 20px 24px;
+            background: var(--accent);
+            border-radius: 8px;
+            text-align: center;
+            color: #59434f;
+        }
 
-We implement reasonable technical and organizational measures to protect your information.
+        .acknowledgment p {
+            margin: 0;
+        }
 
-However, no internet transmission or electronic storage system can be guaranteed to be completely secure. We cannot guarantee absolute security of your information.
+        .page-footer {
+            padding: 0 20px 36px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
 
-## 8. Data Retention and Account Deletion
+        .page-footer strong {
+            color: var(--primary-dark);
+        }
 
-We retain personal information for as long as necessary to provide our services, maintain account functionality, resolve disputes, enforce our policies, and comply with legal obligations.
+        @media (max-width: 640px) {
+            .page-header {
+                padding: 42px 20px 54px;
+            }
 
-You may request account deletion by using the account deletion feature in the application, if available, or by contacting us using the details provided in this policy.
+            .page-header h1 {
+                font-size: 32px;
+            }
 
-Some information may be retained for a limited period where required by law, security, or legitimate operational purposes.
+            .container {
+                padding: 0 12px;
+                margin-top: -22px;
+            }
 
-## 9. Children's Privacy
+            .content {
+                padding: 28px 22px;
+                border-radius: 12px;
+            }
 
-Holong is intended for adults aged 18 and above. We do not knowingly collect personal information from children under the age of 18.
+            h2 {
+                font-size: 19px;
+                margin-top: 32px;
+            }
 
-If we become aware that an account belonging to a person under 18 has been created, we may take steps to remove the account and associated information.
+            body {
+                font-size: 14px;
+            }
 
-## 10. Your Privacy Rights
+            .intro {
+                padding: 17px 18px;
+            }
+        }
 
-Subject to applicable laws, you may have the right to:
+        @media print {
+            body {
+                background: #ffffff;
+            }
 
-- Request access to your personal information.
-- Request correction of inaccurate information.
-- Request deletion of your personal information.
-- Withdraw consent where processing is based on consent.
-- Ask questions about how your information is processed.
+            .page-header {
+                background: #ffffff;
+                color: #222222;
+                padding: 20px;
+            }
 
-To exercise these rights, please contact us using the information below.
+            .page-header p,
+            .last-updated {
+                color: #555555;
+            }
 
-## 11. Third-Party Services
+            .container {
+                max-width: 100%;
+                margin: 0;
+                padding: 0;
+            }
 
-Holong may integrate with third-party services to support authentication, notifications, hosting, analytics, or other application functionality.
+            .content {
+                border: none;
+                box-shadow: none;
+                padding: 20px;
+            }
 
-These services may process information according to their own privacy policies. We encourage you to review the privacy policies of any third-party services you use.
+            .page-footer {
+                padding-bottom: 0;
+            }
+        }
+    </style>
+</head>
 
-## 12. Changes to This Privacy Policy
+<body>
 
-We may update this Privacy Policy from time to time.
+    <header class="page-header">
+        <div class="brand">
+            <div class="brand-icon">H</div>
+            <span>Holong</span>
+        </div>
 
-When changes are made, we will update the "Last updated" date at the beginning of this document. Continued use of Holong after an update means you acknowledge the revised policy.
+        <h1>Privacy Policy</h1>
 
-## 13. Contact Us
+        <p>Your privacy matters to us.</p>
 
-If you have questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us:
+        <div class="last-updated">
+            Last updated: November 20, 2026
+        </div>
+    </header>
 
-**Developer:** Wesly Arfan Simanjuntak  
-**Email:** wesly.mapogo@gmail.com  
-**Application:** Holong  
-**Website:** https://dev-holong.mapogo.site
+    <main class="container">
+        <article class="content">
 
-## 14. Acknowledgment
+            <div class="intro">
+                <p>
+                    This Privacy Policy explains how Holong ("we", "our", or "us")
+                    collects, uses, stores, and protects your personal information
+                    when you use the Holong application and related services.
+                </p>
+            </div>
 
-By creating an account or using Holong, you acknowledge that you have read and understood this Privacy Policy.
+            <h2>1. About Holong</h2>
+
+            <p>
+                Holong is a social connection platform designed to help people
+                discover meaningful connections based on shared interests,
+                preferences, cultural backgrounds, and relationship goals.
+            </p>
+
+            <p>
+                We are committed to respecting your privacy and protecting the
+                personal information you share with us.
+            </p>
+
+            <h2>2. Information We Collect</h2>
+
+            <p>
+                Depending on how you use Holong, we may collect the following
+                information:
+            </p>
+
+            <h3>2.1 Account and Authentication Information</h3>
+
+            <ul>
+                <li>Name or display name</li>
+                <li>Email address</li>
+                <li>Account authentication information</li>
+                <li>Information provided through Google Sign-In, if used</li>
+            </ul>
+
+            <h3>2.2 Profile Information</h3>
+
+            <ul>
+                <li>Date of birth or age</li>
+                <li>Gender</li>
+                <li>Profile biography</li>
+                <li>Cultural background or identity, if provided</li>
+                <li>Interests and preferences</li>
+                <li>Relationship goals</li>
+                <li>Profile photographs and other media you upload</li>
+            </ul>
+
+            <h3>2.3 Communication Information</h3>
+
+            <p>
+                If messaging or other communication features are available,
+                we may process messages and related information necessary
+                to provide those features.
+            </p>
+
+            <h3>2.4 Technical Information</h3>
+
+            <p>We may collect technical information such as:</p>
+
+            <ul>
+                <li>Device type and operating system</li>
+                <li>Application version</li>
+                <li>IP address</li>
+                <li>Diagnostic and error logs</li>
+                <li>Usage information related to application functionality</li>
+            </ul>
+
+            <h2>3. How We Use Your Information</h2>
+
+            <p>We may use your information to:</p>
+
+            <ul>
+                <li>Create and manage your account.</li>
+                <li>Authenticate your identity and provide secure access.</li>
+                <li>Display your profile to other users according to application features and settings.</li>
+                <li>Help users discover potential connections.</li>
+                <li>Enable communication between users.</li>
+                <li>Send service-related notifications.</li>
+                <li>Maintain, troubleshoot, and improve the application.</li>
+                <li>Detect suspicious activities and prevent misuse.</li>
+                <li>Comply with applicable legal obligations.</li>
+            </ul>
+
+            <h2>4. Data Storage and Processing</h2>
+
+            <p>
+                Your information may be stored and processed using our application
+                infrastructure, databases, cloud services, and media storage providers.
+            </p>
+
+            <p>
+                We take reasonable measures to protect personal information against
+                unauthorized access, alteration, disclosure, or destruction.
+            </p>
+
+            <h2>5. Sharing of Information</h2>
+
+            <p><strong>We do not sell your personal information.</strong></p>
+
+            <p>
+                We may share limited information with third parties when necessary
+                to operate Holong, including:
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Authentication providers:</strong>
+                    Such as Google, if you use Google Sign-In.
+                </li>
+                <li>
+                    <strong>Hosting and infrastructure providers:</strong>
+                    To operate our application and store data.
+                </li>
+                <li>
+                    <strong>Notification providers:</strong>
+                    To deliver application notifications.
+                </li>
+                <li>
+                    <strong>Legal authorities:</strong>
+                    When required by applicable law or necessary to protect users,
+                    our rights, or the security of the platform.
+                </li>
+            </ul>
+
+            <p>
+                We do not authorize service providers to use your information
+                for purposes unrelated to providing their services to us.
+            </p>
+
+            <h2>6. Profile Visibility and User Interactions</h2>
+
+            <p>
+                Holong may display information from your profile to other users
+                to support its social discovery features.
+            </p>
+
+            <p>
+                Please be careful when sharing personal information in your profile,
+                photographs, or conversations. Information shared with other users
+                may be viewed, copied, or saved by them.
+            </p>
+
+            <p>
+                We encourage users to avoid sharing sensitive information with
+                people they do not know or trust.
+            </p>
+
+            <h2>7. Data Security</h2>
+
+            <p>
+                We implement reasonable technical and organizational measures
+                to protect your information.
+            </p>
+
+            <p>
+                However, no internet transmission or electronic storage system
+                can be guaranteed to be completely secure. We cannot guarantee
+                absolute security of your information.
+            </p>
+
+            <h2>8. Data Retention and Account Deletion</h2>
+
+            <p>
+                We retain personal information for as long as necessary to provide
+                our services, maintain account functionality, resolve disputes,
+                enforce our policies, and comply with legal obligations.
+            </p>
+
+            <p>
+                You may request account deletion by using the account deletion
+                feature in the application, if available, or by contacting us
+                using the details provided in this policy.
+            </p>
+
+            <p>
+                Some information may be retained for a limited period where
+                required by law, security, or legitimate operational purposes.
+            </p>
+
+            <h2>9. Children's Privacy</h2>
+
+            <p>
+                Holong is intended for adults aged 18 and above. We do not
+                knowingly collect personal information from children under
+                the age of 18.
+            </p>
+
+            <p>
+                If we become aware that an account belonging to a person under
+                18 has been created, we may take steps to remove the account
+                and associated information.
+            </p>
+
+            <h2>10. Your Privacy Rights</h2>
+
+            <p>Subject to applicable laws, you may have the right to:</p>
+
+            <ul>
+                <li>Request access to your personal information.</li>
+                <li>Request correction of inaccurate information.</li>
+                <li>Request deletion of your personal information.</li>
+                <li>Withdraw consent where processing is based on consent.</li>
+                <li>Ask questions about how your information is processed.</li>
+            </ul>
+
+            <p>
+                To exercise these rights, please contact us using the information below.
+            </p>
+
+            <h2>11. Third-Party Services</h2>
+
+            <p>
+                Holong may integrate with third-party services to support
+                authentication, notifications, hosting, analytics, or other
+                application functionality.
+            </p>
+
+            <p>
+                These services may process information according to their own
+                privacy policies. We encourage you to review the privacy policies
+                of any third-party services you use.
+            </p>
+
+            <h2>12. Changes to This Privacy Policy</h2>
+
+            <p>
+                We may update this Privacy Policy from time to time.
+            </p>
+
+            <p>
+                When changes are made, we will update the "Last updated" date
+                at the beginning of this document. Continued use of Holong
+                after an update means you acknowledge the revised policy.
+            </p>
+
+            <h2>13. Contact Us</h2>
+
+            <p>
+                If you have questions, concerns, or requests regarding this
+                Privacy Policy or your personal information, please contact us:
+            </p>
+
+            <div class="contact-card">
+                <p><strong>Developer:</strong> Mapogo Lab</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:mapogolab@gmail.com">
+                        mapogolab@gmail.com
+                    </a>
+                </p>
+                <p><strong>Application:</strong> Holong</p>
+                <p>
+                    <strong>Website:</strong>
+                    <a href="https://dev-holong.mapogo.site" target="_blank" rel="noopener noreferrer">
+                        https://dev-holong.mapogo.site
+                    </a>
+                </p>
+            </div>
+
+            <h2>14. Acknowledgment</h2>
+
+            <div class="acknowledgment">
+                <p>
+                    By creating an account or using Holong, you acknowledge
+                    that you have read and understood this Privacy Policy.
+                </p>
+            </div>
+
+        </article>
+    </main>
+
+    <footer class="page-footer">
+        <p>
+            &copy; 2026 <strong>Holong</strong>. All rights reserved.
+        </p>
+        <p>Built with care for meaningful connections.</p>
+    </footer>
+
+</body>
+</html>
+```
